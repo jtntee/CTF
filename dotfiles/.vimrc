@@ -1,6 +1,7 @@
 "vsettings 19.09.16
 ""--------------------------------------
 
+set mouse=a
 set nocompatible
 set number
 set laststatus=2
@@ -108,4 +109,5 @@ let g:airline_powerline_fonts=1
 let g:airline_theme='base16'
 
 
+set backspace=indent,eol,start
 autocmd BufWritePre * %s/\s\+$//e
